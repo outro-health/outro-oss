@@ -1,5 +1,5 @@
 {
-  "name": "@outro/elation-to-markdown",
+  "name": "@outro-health/elation-to-markdown",
   "version": "0.1.0",
   "description": "Convert Elation EHR visit notes and non-visit notes to clean markdown",
   "type": "module",

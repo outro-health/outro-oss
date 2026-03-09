@@ -1,17 +1,17 @@
-# @outro/jotform-to-markdown
+# @outro-health/jotform-to-markdown
 
 Convert Jotform form submissions to clean, readable markdown. Zero dependencies.
 
 ## Install
 
 ```sh
-yarn add @outro/jotform-to-markdown
+yarn add @outro-health/jotform-to-markdown
 ```
 
 ## Usage
 
 ```ts
-import { jotformToMarkdown } from "@outro/jotform-to-markdown"
+import { jotformToMarkdown } from "@outro-health/jotform-to-markdown"
 
 const markdown = jotformToMarkdown(submission, {
   formQuestions,          // optional: filter out hidden fields

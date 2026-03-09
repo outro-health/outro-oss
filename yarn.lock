@@ -325,18 +325,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@outro/elation-to-markdown@workspace:packages/elation-to-markdown":
+"@outro-health/elation-to-markdown@workspace:packages/elation-to-markdown":
   version: 0.0.0-use.local
-  resolution: "@outro/elation-to-markdown@workspace:packages/elation-to-markdown"
+  resolution: "@outro-health/elation-to-markdown@workspace:packages/elation-to-markdown"
   dependencies:
     typescript: ^5.7.0
     vitest: ^4.0.18
   languageName: unknown
   linkType: soft
 
-"@outro/jotform-to-markdown@workspace:packages/jotform-to-markdown":
+"@outro-health/jotform-to-markdown@workspace:packages/jotform-to-markdown":
   version: 0.0.0-use.local
-  resolution: "@outro/jotform-to-markdown@workspace:packages/jotform-to-markdown"
+  resolution: "@outro-health/jotform-to-markdown@workspace:packages/jotform-to-markdown"
   dependencies:
     typescript: ^5.7.0
     vitest: ^4.0.18

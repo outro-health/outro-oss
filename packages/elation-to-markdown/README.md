@@ -1,11 +1,11 @@
-# @outro/elation-to-markdown
+# @outro-health/elation-to-markdown
 
 Convert Elation EHR visit notes and non-visit notes to clean, readable markdown. Zero dependencies.
 
 ## Install
 
 ```sh
-yarn add @outro/elation-to-markdown
+yarn add @outro-health/elation-to-markdown
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add @outro/elation-to-markdown
 ### Single note
 
 ```ts
-import { elationNoteToMarkdown } from "@outro/elation-to-markdown"
+import { elationNoteToMarkdown } from "@outro-health/elation-to-markdown"
 
 const markdown = elationNoteToMarkdown(note)
 ```
@@ -21,7 +21,7 @@ const markdown = elationNoteToMarkdown(note)
 ### Multiple notes
 
 ```ts
-import { elationNotesToMarkdown } from "@outro/elation-to-markdown"
+import { elationNotesToMarkdown } from "@outro-health/elation-to-markdown"
 
 const markdown = elationNotesToMarkdown(notes, {
   sort: "desc",   // newest first (default)
