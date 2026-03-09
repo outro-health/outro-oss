@@ -1,8 +1,18 @@
 # outro-oss
 
-Open-source packages from [Outro Health](https://outro.com) for working with healthcare data formats.
+Open-source packages from [Outro Health](https://outro.com) for working with healthcare APIs and data formats.
 
 ## Packages
+
+### API Clients
+
+| Package | Description |
+| --- | --- |
+| [`@outro-health/elation-client`](packages/elation-client) | Typed client for the Elation EHR API v2 |
+| [`@outro-health/helpscout-inbox-client`](packages/helpscout-inbox-client) | Typed client for the Help Scout Mailbox API v2 |
+| [`@outro-health/helpscout-docs-client`](packages/helpscout-docs-client) | Typed client for the Help Scout Docs API v1 |
+
+### Data Formatting
 
 | Package | Description |
 | --- | --- |

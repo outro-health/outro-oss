@@ -325,9 +325,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@outro-health/elation-client@workspace:packages/elation-client":
+  version: 0.0.0-use.local
+  resolution: "@outro-health/elation-client@workspace:packages/elation-client"
+  dependencies:
+    typescript: ^5.7.0
+    vitest: ^4.0.18
+  languageName: unknown
+  linkType: soft
+
 "@outro-health/elation-to-markdown@workspace:packages/elation-to-markdown":
   version: 0.0.0-use.local
   resolution: "@outro-health/elation-to-markdown@workspace:packages/elation-to-markdown"
+  dependencies:
+    typescript: ^5.7.0
+    vitest: ^4.0.18
+  languageName: unknown
+  linkType: soft
+
+"@outro-health/helpscout-docs-client@workspace:packages/helpscout-docs-client":
+  version: 0.0.0-use.local
+  resolution: "@outro-health/helpscout-docs-client@workspace:packages/helpscout-docs-client"
+  dependencies:
+    typescript: ^5.7.0
+    vitest: ^4.0.18
+  languageName: unknown
+  linkType: soft
+
+"@outro-health/helpscout-inbox-client@workspace:packages/helpscout-inbox-client":
+  version: 0.0.0-use.local
+  resolution: "@outro-health/helpscout-inbox-client@workspace:packages/helpscout-inbox-client"
   dependencies:
     typescript: ^5.7.0
     vitest: ^4.0.18
